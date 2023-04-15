@@ -11,3 +11,11 @@
     background-color: #000000;
 }
 
+/* Max-{x} Não funciona em elementos de linhas
+   Elementos de linha não podem conter elementos de blocos
+*/
+.cabecalho img{
+    display: block; /*Tranforma a imagem em elemento de bloco*/
+    width: 30%;
+    max-width: 30%;
+}
