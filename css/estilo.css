@@ -1,0 +1,31 @@
+@import url("./cabecalho.css");
+@import url("./conteudo.css");
+@import url("./break-point-630px.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.7%;
+}
+
+.tit-foto {
+    font-size: 4rem;
+    text-align: center;
+    margin: 5% 0;
+}
+
+footer>nav>a>img {
+    width: 10px;
+}
+
+/* Commit depois de usar a 
+diretiva e organizar o cabeçalho 
+e conteudo em outros arquivos 
+
+Diretiva import para organizar arquivos*/
+
+/* Commit da media e import da midia */
